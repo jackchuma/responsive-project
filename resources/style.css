@@ -40,11 +40,17 @@ nav p {
 .sponsors-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
+    background-image: url("./images/thomas-park-fDmpxdV69eA-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
 }
 
 .sponsors-container p {
-    background-color: green;
+    background-color:black;
     width: 150px;
     height: 75px;
     display: flex;
