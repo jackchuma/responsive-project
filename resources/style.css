@@ -1,6 +1,16 @@
+html {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
 header {
     display: flex;
-    border: 1px solid black;
+    border: 2px solid green;
     justify-content: center;
 }
 
@@ -14,11 +24,15 @@ nav {
     align-items: center;
     justify-content: center;
     border: 1px solid black;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 75%;
+    overflow: hidden;
 }
 
 nav p {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 1px solid black;
+    text-decoration: underline;
 }
