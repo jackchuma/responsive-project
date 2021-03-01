@@ -28,11 +28,12 @@ nav {
     margin-right: 3%;
     width: 75%;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 nav p {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     border: 1px solid black;
     text-decoration: underline;
 }
@@ -56,4 +57,14 @@ nav p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        display: none;
+    }
+
+    header {
+        justify-content: space-around;
+    }
 }
